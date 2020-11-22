@@ -1,21 +1,38 @@
+h1, h2, h3, body, p{
+  margin: 0;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
-  font-size: 64px;
+  font-size: 60px;
 }
 
 h1 span {
   font-weight: bold;
 }
+h3{
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+ul, ol {
+  display: inline-block;
+  padding: 0;
+}
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
   color: rgba(0, 0, 0, 0.6);
 }
 
+.profissão{
+  font-size: 20px;
+}
+
 body {
-  background-color: #e5e5e5;
+  background-color: #67b497;
 }
 
 header {
@@ -24,4 +41,59 @@ header {
 
 div {
   display: inline-block;
+}
+
+main{
+  padding: 40px 70px;
+}
+
+.dados {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.foto {
+  border: 4px solid black;
+  border-radius: 60%;
+  margin-bottom: -120px;
+  margin-right: 24px;
+}
+
+.coluna-menor img{
+  width: 40px;
+  height: 20px;
+  border-radius: 0; 
+  margin-right: 10px;
+}
+.coluna-menor{
+  margin-top: 80px;
+}
+
+.coluna-menor .li{
+  margin-top: 32px;
+  }
+
+
+.linha{
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 8px;
+  
+}
+
+.experiencias .linha{
+  border-color: #4200ff;
+}
+
+.conteudo{
+  display: inline-block;
+  padding: 0;
+}
+
+.formacao{
+  margin-top: 32px;
+}
+
+.t60{
+  color: rgba(0, 0, 0, 0.6);
 }

@@ -1,0 +1,31 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 64px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: white;
+}
+
+div {
+  display: inline-block;
+}
+
+main{
+  padding: 40px 70px;
+}
