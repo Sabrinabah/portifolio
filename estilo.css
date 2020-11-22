@@ -1,3 +1,17 @@
+
+header {
+  background-color: white;
+}
+
+body {
+  background-color: rgb(241, 240, 240);
+}
+
+main{
+  padding: 40px 70px;
+  display: flex;
+}
+
 h1, h2, h3, body, p{
   margin: 0;
 }
@@ -11,6 +25,7 @@ h1 {
 h1 span {
   font-weight: bold;
 }
+
 h3{
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
@@ -18,37 +33,23 @@ h3{
 }
 
 ul, ol {
-  display: inline-block;
+  list-style-type: none;
   padding: 0;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .profissão{
   font-size: 20px;
 }
 
-body {
-  background-color: #67b497;
-}
-
-header {
-  background-color: white;
-}
-
 div {
   display: inline-block;
 }
 
-main{
-  padding: 40px 70px;
-}
-
 .dados {
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -59,41 +60,98 @@ main{
   margin-right: 24px;
 }
 
+.linha{
+  width: 250px;
+  border-top: 2px solid;
+  margin-top: 8px;
+}
+
+.coluna-menor{
+  margin-top: 70px;
+  width: 288px;
+ }
+
 .coluna-menor img{
   width: 40px;
   height: 20px;
   border-radius: 0; 
   margin-right: 10px;
 }
-.coluna-menor{
-  margin-top: 80px;
-}
 
 .coluna-menor .li{
   margin-top: 32px;
+  display: flex;
   }
-
-
-.linha{
-  width: 80px;
-  border-top: 2px solid;
-  margin-top: 8px;
+  .experiencias .linha{
+    border-color: #4200ff;
+  }
   
+  .conteudo{
+    padding: 0;
+  }
+  
+  .formacao{
+    margin-top: 32px;
+  }
+  
+  .formacao .linha{
+    border-color: black;
+  }
+  
+  .t60{
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+.coluna-maior{
+  margin-left: 22px;
 }
 
-.experiencias .linha{
-  border-color: #4200ff;
+.coluna-maior h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 16px;
 }
 
-.conteudo{
-  display: inline-block;
-  padding: 0;
+.habilidades{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.formacao{
+.habilidade {
+  background-color: white;
+  border-radius: 14px;
+  padding: 26px;
+  margin: 10px;
+  width: 230px;
+}
+.habilidade h3{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.habilidade p{
+  font-size: 16px;
+}
+
+.habilidade li{
+  margin-top: 24px;
+}
+
+.habilidade li: :first-child{
   margin-top: 32px;
 }
 
-.t60{
-  color: rgba(0, 0, 0, 0.6);
+.progresso{
+  width: 100%;
+}
+
+.barra{
+  width: 15%;
+  height: 4px;
+  background-color: #4200ff;
+}
+
+.incompleto {
+  opacity: 0.2;
 }
