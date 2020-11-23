@@ -82,26 +82,26 @@ div {
   margin-top: 32px;
   display: flex;
   }
-  .experiencias .linha{
-    border-color: #4200ff;
-  }
-  
-  .conteudo{
-    padding: 0;
-  }
-  
-  .formacao{
-    margin-top: 32px;
-  }
-  
-  .formacao .linha{
-    border-color: black;
-  }
-  
-  .t60{
-    color: rgba(0, 0, 0, 0.6);
-  }
-  
+.experiencias .linha{
+  border-color: #4200ff;
+}
+
+.conteudo{
+  padding: 0;
+}
+
+.formacao{
+  margin-top: 32px;
+}
+
+.formacao .linha{
+  border-color: black;
+}
+
+.t60{
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .coluna-maior{
   margin-left: 22px;
 }
@@ -124,6 +124,7 @@ div {
   margin: 10px;
   width: 230px;
 }
+
 .habilidade h3{
   font-size: 24px;
   font-weight: bold;
@@ -138,15 +139,15 @@ div {
   margin-top: 24px;
 }
 
-.habilidade li: :first-child{
+.habilidade li: :first-child {
   margin-top: 32px;
 }
 
-.progresso{
+.progresso {
   width: 100%;
 }
 
-.barra{
+.barra {
   width: 15%;
   height: 4px;
   background-color: #4200ff;
@@ -154,4 +155,58 @@ div {
 
 .incompleto {
   opacity: 0.2;
+}
+.projetos{
+  display: flex;
+}
+
+.projetos img{
+  width:80%;
+  height:60%;
+  border-radius: 0; 
+  margin-right: 10px;
+}
+.projeto {
+widows: 392px;
+padding: 80px;
+background-color: white;
+border-radius: 8px;
+margin: 12px;
+}
+
+.projeto h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projeto. p{
+  margin-top: 16px;
+  margin-bottom:24px;
+}
+.projeto a {
+  text-decoration: none;
+  background-color: #4200ff;
+  color: white;
+  padding:8px 24px;
+  font-family: "Open Sans", sans-serif;
+  border-radius:4px;
+  font-weight: 600;
+  text-align: center;
+
+  
+}
+
+..projetos img{
+  width: 50px;
+  height: 30px;
+  border-radius: 0; 
+  margin-right: 10px;
+}
+
+footer{
+  background-color: #14004d;
+  color: white; 
+  padding:57.6px
+  text-align: center
+  font-family:"opensans", sans-serif;
 }
